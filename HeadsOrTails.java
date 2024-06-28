@@ -12,6 +12,7 @@ public class HeadsOrTails {
         int headsCount = 0;
         int tailsCount = 0;
 
+
         System.out.println("Tossing a coin...");
         for (int i = 1; i <= 3; i++) {
             String result = random.nextBoolean() ? "Heads" : "Tails";
